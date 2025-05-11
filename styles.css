@@ -1,0 +1,351 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* Black background */
+  margin: 0;
+  padding: 0;
+  color: #dcdcdc; /* Light grey text */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #2d6a4f; /* Dark Green */
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ecf0f1;
+  font-size: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1b7d3a; /* Light Green on hover */
+}
+
+/* Button styles */
+.btn {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #1b7d3a; /* Light Green */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #145d2a; /* Dark Green on hover */
+}
+
+/* Container for pages */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* Title styles */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dcdcdc; /* Light grey for headings */
+  margin-bottom: 20px;
+}
+
+/* Submission Form Styles */
+form {
+  background-color: #1e1e1e; /* Dark background for forms */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dcdcdc;
+}
+
+.form-control {
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #555; /* Slightly darker border */
+  background-color: #333; /* Darker background for inputs */
+  color: #dcdcdc; /* Light grey text */
+}
+
+.form-control:focus {
+  border-color: #1b7d3a; /* Light green focus border */
+  box-shadow: 0 0 10px rgba(27, 125, 58, 0.5); /* Light green focus shadow */
+}
+
+/* Table Styles for Submissions */
+.submissions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #222222; /* Dark background for table */
+  border-radius: 10px;
+}
+
+.submissions-table th, .submissions-table td {
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.submissions-table th {
+  background-color: #1b7d3a; /* Light Green for table headers */
+  color: white;
+}
+
+.submissions-table td {
+  background-color: #333333; /* Dark background for table cells */
+  color: #ddd; /* Light gray text color */
+}
+
+.submissions-table tr:nth-child(even) {
+  background-color: #444444; /* Slightly lighter for alternating rows */
+}
+
+.submissions-table tr:hover {
+  background-color: #e74c3c; /* Red hover effect */
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2d6a4f; /* Dark Green footer */
+  color: #dcdcdc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #3498db; /* Light blue links */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Section background colors for pages */
+.section {
+  background-color: #222222; /* Dark background for sections */
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #ecf0f1; /* Light grey text */
+}
+
+.section p {
+  color: #dcdcdc; /* Light grey text */
+}
+
+/* Submission Button */
+.submit-btn {
+  background-color: #1b7d3a; /* Light Green */
+  border-radius: 20px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #145d2a; /* Dark Green */
+  cursor: pointer;
+}
+
+/* Review section */
+.reviews-container {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.reviews-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #333333; /* Dark background for cards */
+  border: none;
+}
+
+.card-title {
+  color: #1b7d3a; /* Light green title */
+}
+
+.card-subtitle {
+  color: #dcdcdc; /* Light grey text for the author */
+}
+
+.card-text {
+  color: #dcdcdc; /* Light grey text for the date */
+}
+
+button {
+  background-color: #3498db;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Review form */
+.form-control {
+  background-color: #2e2e2e;
+  color: #dcdcdc;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+button[type="submit"] {
+  background-color: #1b7d3a; /* Green for submit button */
+}
+
+button[type="submit"]:hover {
+  background-color: #145d2a; /* Dark green on hover */
+}
+
+button[type="button"] {
+  background-color: #555;
+}
+
+button[type="button"]:hover {
+  background-color: #444;
+}
+/* Submission Page Styles */
+.submission-page {
+  background-color: #1e1e1e; /* Dark background for the submission page */
+  color: #dcdcdc; /* Light grey text for readability */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow around the page */
+}
+
+/* Title of Submission Page */
+.submission-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dcdcdc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Styles for Submission */
+.submission-form {
+  background-color: #333333; /* Dark background for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Form Labels */
+.submission-form .form-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dcdcdc;
+  margin-bottom: 10px;
+}
+
+/* Form Inputs */
+.submission-form .form-control {
+  background-color: #444444; /* Dark background for input fields */
+  color: #dcdcdc;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Focus */
+.submission-form .form-control:focus {
+  border-color: #1b7d3a; /* Light green focus border */
+  box-shadow: 0 0 10px rgba(27, 125, 58, 0.5);
+}
+
+/* Submit Button */
+.submission-form .submit-btn {
+  background-color: #1b7d3a; /* Light green */
+  border-radius: 20px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submission-form .submit-btn:hover {
+  background-color: #145d2a; /* Dark green */
+  cursor: pointer;
+}
+
+/* Error Message Styles */
+.submission-form .error-message {
+  color: #e74c3c; /* Red color for error messages */
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Optional Success Message */
+.submission-form .success-message {
+  color: #2ecc71; /* Green color for success messages */
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+/* Style the "Choose File" button */
+.choose-file-btn {
+  background-color: #1b7d3a; /* Light Green */
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.choose-file-btn:hover {
+  background-color: #145d2a; /* Dark Green */
+}
+
+/* Style the file name display */
+.file-name {
+  color: #dcdcdc;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Make sure file input is hidden */
+.custom-file-input {
+  display: none;
+}
